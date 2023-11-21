@@ -10,11 +10,4 @@ int my_rand() {
   return (seed / 65536) % 2;     // Вернуть значение в диапазоне 0-32767
 }
 
-int main() {
-    int s=10;
-    for(int i; i<s; i++){
-  cout << "my_rand() = " << my_rand() << endl;
-    }
 
-  return 0;
-}
